@@ -8,11 +8,15 @@ a{
 li{
     list-style-type:none;
 }
+/*修改*/
+#header{
+    height:192px;
+    background-color: #0aff0a;
+}
 #top{
     width:1200px;
     height:192px;
-    margin: 0 auto;
-    /*border:2px red solid;*/
+    margin:auto 0;
 }
 #top1 p,img{
     display:inline-block;
@@ -48,7 +52,7 @@ li{
     top:14px;
 }
 #top-img1{
-    position: absolute;
+    position: relative;
     left:940px;
     top:16px;
 }
@@ -144,32 +148,40 @@ li{
     margin-right: 44px;
     font-size: 15px;
     color: #5a5a5a;
-
 }
 #top li:hover{
     border-bottom: green solid 6px;
 }
+#banner{
+    height:670px;
+    background: url("imgs/banner.png") no-repeat center center;
+}
 #second{
-    background-image:url("imgs/banner.png");
-    background-repeat: no-repeat;
     width: 1920px;
     height: 678px;
     margin: 0 auto;
 }
 #fix-img{
     position: fixed;
-    left:1300px;
+    right:0;
+}
+#second{
+    height: 791px;
+    width:80px;
+    position: fixed;
+    right:0;
+    top:190px;
 }
 #second li{
     width:79px;
     height: 127px;
     background-color: rgba(1,8,7,0.85);
     border-bottom: white solid 2px;
+    line-height: 127px;
+    text-align: center;
 }
 #second li>img{
-    position: relative;
-    left:10px;
-    top:56px;
+
 }
 #t-p1,#t-p2,#t-p3{
     display: inline-block;
@@ -426,7 +438,6 @@ li{
     position: relative;
     left:260px;
 }
-
 
 
 
